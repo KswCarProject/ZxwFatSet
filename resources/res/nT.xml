@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.szchoiceway.zxwlib.GyroScopeWithCompassView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/ldklz_carcool_biaopan1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60px" android:layout_marginTop="-15px"/>
+    <ImageView android:id="@+id/carXAxis" android:background="@drawable/ldklz_carcool_che1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60px" android:layout_marginTop="-15px"/>
+    <TextView android:textSize="16sp" android:textColor="#fff" android:gravity="bottom|center_vertical|center_horizontal|center" android:paddingBottom="70px" android:layout_width="370px" android:layout_height="370px" android:layout_marginLeft="60px" android:layout_marginTop="-15px" android:text="Pitch"/>
+    <ImageView android:background="@drawable/ldklz_carcool_biaopan2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60px" android:layout_marginTop="290px"/>
+    <ImageView android:id="@+id/carYAxis" android:background="@drawable/ldklz_carcool_che2" android:layout_width="370px" android:layout_height="370px" android:layout_marginLeft="60px" android:layout_marginTop="290px"/>
+    <TextView android:textSize="16sp" android:textColor="#fff" android:gravity="bottom|center_vertical|center_horizontal|center" android:paddingBottom="70px" android:layout_width="370px" android:layout_height="370px" android:layout_marginLeft="60px" android:layout_marginTop="290px" android:text="Roll"/>
+    <ImageView android:id="@+id/compass" android:background="@drawable/ldklz_carcool_zhinanzhendi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="503px" android:layout_marginTop="8px"/>
+    <ImageView android:background="@drawable/ldklz_carcool_zhinanzhen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="503px" android:layout_marginTop="8px"/>
+</com.szchoiceway.zxwlib.GyroScopeWithCompassView>

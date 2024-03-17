@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/viewUsbHost" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkUsbHost" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_usb_host_mode" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewHicar" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkHicar" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hicar" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewGoogle" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkGoogle" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_google" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewAux" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkAux" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AUX" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewDTV" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkDTV" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DTV" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewForward" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkForward" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_forward" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewTXZ" android:visibility="gone" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkTxz" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_txz" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewScreenCast" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkScreenCast" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="screen cast-MS9120" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewSendData" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkSendData" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_send_touch" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewEQ" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkEQ" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_have_eq" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewWeather" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkWeather" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_have_weather" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/view9211" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chk9211" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9211" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_amplifier" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewOriginal" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="57dp">
+                <CheckBox android:id="@+id/chkOriginal" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_amplifier_original" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewExternal" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewOriginal">
+                <CheckBox android:id="@+id/chkExternal" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_amplifier_outside" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_horn" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewHorn0" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="57dp">
+                <CheckBox android:id="@+id/chkHorn0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_horn_enable" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewHorn1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewHorn0">
+                <CheckBox android:id="@+id/chkHorn1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_horn_disable" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

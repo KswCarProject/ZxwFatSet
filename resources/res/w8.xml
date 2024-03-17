@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="@drawable/border_line_horizontal" android:layout_width="380dp" android:layout_height="1dp" android:layout_marginTop="1dp" android:layout_marginStart="100dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/listview" android:background="#000" android:scrollbars="none" android:layout_width="239dp" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="5dp"/>
+        <View android:id="@+id/divider" android:background="@drawable/border_line_vertical" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="3dp" android:layout_toRightOf="@+id/listview"/>
+        <com.szchoiceway.fatset.IndexViewPager android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="7dp" android:layout_toRightOf="@+id/divider"/>
+    </RelativeLayout>
+</RelativeLayout>

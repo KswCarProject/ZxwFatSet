@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/viewCarWithoutScreen" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkCarWithoutScreen" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_car_without_screen" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_knob_type" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewKnobA" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="57dp">
+                <CheckBox android:id="@+id/chkKnobA" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_knob_type_A" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewKnobB" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="120dp">
+                <CheckBox android:id="@+id/chkKnobB" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22dp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_knob_type_B" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_camera_type" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewCameraCVBS" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkCameraCVBS" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_camera_type_cvbs" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCameraVGA" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="120dp">
+                <CheckBox android:id="@+id/chkCameraVGA" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_camera_type_vga" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_gear" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewGear1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkGear1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_gear_1" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewGear2" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewGear1">
+                <CheckBox android:id="@+id/chkGear2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_gear_2" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewGear3" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewGear2">
+                <CheckBox android:id="@+id/chkGear3" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_gear_3" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_track" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewTrack1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkTrack1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_track1" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewTrack2" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewTrack1">
+                <CheckBox android:id="@+id/chkTrack2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_track2" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_reverse_time" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewOriginalBackcar" android:layout_width="match_parent" android:layout_height="60dp">
+                <CheckBox android:id="@+id/chkOriginalBackcarQuit" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_reverse_time_protocol" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCustomizeBackcarQuit" android:layout_width="match_parent" android:layout_height="60dp">
+                <CheckBox android:id="@+id/chkCustomizeBackcarQuit" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_reverse_time_customize" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCustomizeSeekbar" android:layout_width="match_parent" android:layout_height="133dp">
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="center" android:id="@+id/backcarTimeValue" android:layout_width="266dp" android:layout_height="55dp" android:text="5" android:layout_marginStart="107dp"/>
+                <SeekBar android:id="@+id/backcarTimeSeekbar" android:layout_width="266dp" android:layout_height="80dp" android:max="10" android:progress="5" android:progressDrawable="@drawable/kesaiwei_1920x720_evo_id7_effect_seekbar_style" android:thumb="@drawable/kesaiwei_1920x720_evo_id7_btn_kuaikuai_selector" android:thumbOffset="40dp" android:layout_alignParentBottom="true" android:layout_marginStart="107dp"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_seat" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewSeatLeft" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkSeatLeft" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_seat_left" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewSeatRight" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewSeatLeft">
+                <CheckBox android:id="@+id/chkSeatRight" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_seat_right" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_door" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewFourDoors" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkFourDoors" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_door_four" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewTwoDoors" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewFourDoors">
+                <CheckBox android:id="@+id/chkTwoDoors" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_door_two" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewHideDoors" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewTwoDoors">
+                <CheckBox android:id="@+id/chkHideDoors" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_door_hide" android:layout_centerVertical="true" android:layout_marginStart="147sp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_speed_type" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewSpeed0" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkSpeed0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_speed_type0" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewSpeed1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewSpeed0">
+                <CheckBox android:id="@+id/chkSpeed1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_speed_type1" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_camera_360" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewCamera0" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkCamera0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_camera_360_null" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCamera1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewCamera0">
+                <CheckBox android:id="@+id/chkCamera1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_camera_360_install" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCamera2" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewCamera1">
+                <CheckBox android:id="@+id/chkCamera2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_camera_360_original" android:layout_centerVertical="true" android:layout_marginStart="147sp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_turn_signal_control" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewLight0" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkLight0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_turn_signal_control_no" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLight1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewLight0">
+                <CheckBox android:id="@+id/chkLight1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_turn_signal_control_yes" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewMic" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_mic_selection" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewMic0" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkMic0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_mic_selection_external" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewMic1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewMic0">
+                <CheckBox android:id="@+id/chkMic1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_mic_selection_internal" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewMicType" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_mic_type" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewMicOriginal" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp">
+                <CheckBox android:id="@+id/chkMicOriginal" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_mic_oem" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewMicInstall" android:layout_width="match_parent" android:layout_height="60dp" android:layout_below="@+id/viewMicOriginal">
+                <CheckBox android:id="@+id/chkMicInstall" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_mic_install" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@+id/viewLvds" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_lvds_mode" android:layout_marginStart="67dp"/>
+            <RelativeLayout android:id="@+id/viewLvdsVesa" android:layout_width="match_parent" android:layout_height="60dp">
+                <CheckBox android:id="@+id/chkLvdsVesa" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VESA" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLvdsJeida" android:layout_width="match_parent" android:layout_height="60dp">
+                <CheckBox android:id="@+id/chkLvdsJeida" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JEIDA" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</ScrollView>

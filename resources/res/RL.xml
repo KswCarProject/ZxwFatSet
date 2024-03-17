@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_special_lr_host_select" android:layout_marginStart="67dp"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkHostBs" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lr_host_select_bs" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewHostBsCapacitive" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkHostBsCapacitive" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lr_host_select_bs_capacitive" android:layout_centerVertical="true" android:layout_marginStart="187dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewHostBsResistance1" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkHostBsResistance1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lr_host_select_bs_resistance1" android:layout_centerVertical="true" android:layout_marginStart="187dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewHostBsResistance2" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkHostBsResistance2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lr_host_select_bs_resistance2" android:layout_centerVertical="true" android:layout_marginStart="187dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewHostHm" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkHostHm" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lr_host_select_hm" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+        </RelativeLayout>
+        <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_special_lr_wheel_type" android:layout_marginStart="67dp"/>
+        <RelativeLayout android:id="@+id/viewWheelControlLin" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkWheelControlLin" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lin" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewWheelControlADC" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkWheelControlADC" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ADC" android:layout_centerVertical="true" android:layout_marginStart="147dp"/>
+        </RelativeLayout>
+        <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_special_lr_key_panel_left" android:layout_marginStart="67dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@+id/viewLRKeyPanelLeft" android:layout_width="match_parent" android:layout_height="268dp" android:layout_marginTop="10dp">
+            <RelativeLayout android:id="@+id/viewLRKeyPanelLeft0" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelLeft1" app:layout_constraintStart_toStartOf="0">
+                <CheckBox android:id="@+id/chkLRKeyPanelLeft0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_left_1" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelLeft1" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelLeft2" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelLeft0">
+                <CheckBox android:id="@+id/chkLRKeyPanelLeft1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_left_2" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelLeft2" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelLeft3" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelLeft1">
+                <CheckBox android:id="@+id/chkLRKeyPanelLeft2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_left_3" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelLeft3" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelLeft4" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelLeft2">
+                <CheckBox android:id="@+id/chkLRKeyPanelLeft3" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_left_4" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelLeft4" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelLeft5" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelLeft3">
+                <CheckBox android:id="@+id/chkLRKeyPanelLeft4" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_left_5" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelLeft5" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelLeft4">
+                <CheckBox android:id="@+id/chkLRKeyPanelLeft5" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_left_6" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="28sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60dp" android:text="@string/lb_special_lr_key_panel_right" android:layout_marginStart="67dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@+id/viewLRKeyPanelRight" android:layout_width="match_parent" android:layout_height="268dp" android:layout_marginTop="10dp">
+            <RelativeLayout android:id="@+id/viewLRKeyPanelRight0" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelRight1" app:layout_constraintStart_toStartOf="0">
+                <CheckBox android:id="@+id/chkLRKeyPanelRight0" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_right_1" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelRight1" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelRight2" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelRight0">
+                <CheckBox android:id="@+id/chkLRKeyPanelRight1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_right_2" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelRight2" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="@+id/viewLRKeyPanelRight3" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelRight1">
+                <CheckBox android:id="@+id/chkLRKeyPanelRight2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_right_3" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelRight3" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@+id/viewLRKeyPanelRight4" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelRight2">
+                <CheckBox android:id="@+id/chkLRKeyPanelRight3" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_right_4" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewLRKeyPanelRight4" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/viewLRKeyPanelRight3">
+                <CheckBox android:id="@+id/chkLRKeyPanelRight4" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/landrover_right_5" android:layout_width="120dp" android:layout_height="240dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

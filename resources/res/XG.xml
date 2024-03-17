@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/viewShowAir" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkShowAir" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_show_air" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewAirControl" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkAirControl" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lexus_air_control" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewOriginFM" android:layout_width="match_parent" android:layout_height="60dp">
+            <CheckBox android:id="@+id/chkOriginFM" android:background="@drawable/chk_id7_set_square" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="67dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_special_lexus_fm" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
